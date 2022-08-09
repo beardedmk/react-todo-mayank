@@ -39,6 +39,59 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## How to Use This App
+
+* An app open with input field and a button named add.
+  You can add your todo by typing your task in input field and clicked the Add Button or just by pressing the return/enter key. (Remeber empty input will lead   an alert popup saying please write again)
+
+* On successfull adding of todo a new button will be added named clear all. (You can read it unctionality in button functionality section)
+  Your single todo skeleton contain todo along with two buttons edit and delete just to edit and delete current todo respectively.
+
+* If you completed you task you can clicked on you todo and it will be switched to completed todo section present below all pending todo.
+  You can also revert back the completed todo to pending todo just by clickinh it again.
+  Along with that you can also clear all your completed todo just by clicking on clear button in completed todo section.
+
+* Your todo will be present in  your browser even if you do a hard refresh or even close your browser.
+
+## Button functionality
+
+* Add Button:
+
+  Clicked thid button to add your new task as todo after writing your task in input field.
+  You can also do this by pressing the enyter/return key
+
+
+* Clear All Button:
+
+  Clicked this button to clear your all todo (from pending todo as well as fron completed todo)
+  Causion: There is no way to get back your task if you hit this button.
+
+
+* Edit Button:
+
+  To edit your pending task just clicked this edit button and you can easliy edit you todo by updating it into input field and then clicked add button to add     this updated task.
+
+
+* Del Button:
+
+  To Delete your Pending todo, you can clicked this edit button and particular task will be deleted as soon as you clicked this.
+
+
+* Clear Button:
+
+  This button is used to delete the all completed task in your todo app. So you can clicked this button to delete completed todo.
+
+
+## Edge Cases
+
+1 . If user wants to add empty task (null) then in that case it will popup an aler with message please write again without adding the blank (null) todo.
+ 
+2. If user enter too long task as todo then in that case. Automatically after few words it will added to next line just to maintain UI flow and help in     imroving readability to user.
+ 
+ 3. There is no loss in user data (todos) if user refresh the todo app or if close the browser.
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
