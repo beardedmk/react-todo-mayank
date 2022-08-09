@@ -1,0 +1,145 @@
+.App{
+    min-height: 100vh;
+    height: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.AppContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 30vh;
+    max-width: 70%;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin: auto;
+    padding: 30px;
+    border-radius: 40px;
+    margin-bottom: 300px;
+}
+
+.heading{
+    margin: 50px 0px;
+    color: darkgoldenrod;
+    font-size: larger;
+    background-color: aliceblue;
+    padding: 20px;
+}
+/* 
+.input-box{
+    display: flex;
+} */
+
+.inputField{
+    flex: 1;
+    /* background-color: red; */
+}
+
+.inputField input{
+    width: 80%;
+    border-color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+input{
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+}
+
+.inpBtn{
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.addBtn{
+    background-color: rgb(41, 204, 41);
+}
+
+.clrAll{
+    background-color: rgb(228, 49, 49);
+}
+
+.list{
+    /* background-color: white; */
+    margin: 35px 0px 0 0;
+    color: rgb(255, 255, 251);
+    /* border-radius: 25px; */
+}
+
+.todoList{
+    word-wrap:break-word;
+    width: 10rem;
+    text-align: left;
+}
+
+li{
+    margin: 10px 0px;
+    list-style: none;
+
+}
+
+.listBtn{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+button .listBtn{
+    margin-right: 10px;
+}
+
+.pndng{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 0px;
+}
+
+.editBtn{
+    color: yellow;
+    border: 1px solid yellowgreen;
+}
+
+.delBtn{
+    color: red;
+    border: 1px solid red;
+}
+
+
+.cmpHdng{
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+
+}
+
+.cmpClrBtn{
+    border: 1px solid rgb(72, 185, 72);
+    margin: 5px 0px 5px 2rem;
+    padding: 5px;
+    font-size: small;
+    color: black;
+    background-color: rgb(112, 214, 112)
+}
+
+.comp{
+    color: rgb(144, 252, 144);
+    width: 300px;
+    word-wrap:break-word;
+    /* margin-left: 0.5rem; */
+    text-align: center;
+}
+
+.cmpMenu{
+    background-color: rgb(142, 255, 142);
+    border-radius: 50px;
+}
