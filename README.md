@@ -42,13 +42,13 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## How to Use This App
 
 * An app open with input field and a button named add.
-  You can add your todo by typing your task in input field and clicked the Add Button or just by pressing the return/enter key. (Remeber empty input will lead   an alert popup saying please write again)
+  You can add your todo by typing your task in input field and clicked the Add Button or just by pressing the return/enter key. (Remember adding empty input will lead to an popup alert "saying please write again")
 
-* On successfull adding of todo a new button will be added named clear all. (You can read it unctionality in button functionality section)
-  Your single todo skeleton contain todo along with two buttons edit and delete just to edit and delete current todo respectively.
+* On successfull adding of todo, a new button will be added named clear all. (You can read its functionality in button functionality section)
+  Your single todo skeleton contains - todo along with two buttons, edit and delete, just to edit and delete current todo respectively.
 
-* If you completed you task you can clicked on you todo and it will be switched to completed todo section present below all pending todo.
-  You can also revert back the completed todo to pending todo just by clickinh it again.
+* If you have completed you task, you can clicked on particular todo and it will be marked as completed todo and switched to completed todo section which is   present below the pending todo section.
+  You can also revert back the 'completed todo' to 'pending todo' just by clicking it again.
   Along with that you can also clear all your completed todo just by clicking on clear button in completed todo section.
 
 * Your todo will be present in  your browser even if you do a hard refresh or even close your browser.
@@ -86,9 +86,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 1 . If user wants to add empty task (null) then in that case it will popup an aler with message please write again without adding the blank (null) todo.
  
-2. If user enter too long task as todo then in that case. Automatically after few words it will added to next line just to maintain UI flow and help in     imroving readability to user.
+2. If user enter too long task as todo then it will automatically added to next line just to maintain UI flow and helps in imroving readability to end user.
  
- 3. There is no loss in user data (todos) if user refresh the todo app or if close the browser.
+ 3. There is no loss in users data (todos) if user refresh the todo app or if close the browser window or complete browser.
 
 
 
